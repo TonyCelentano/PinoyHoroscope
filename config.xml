@@ -41,19 +41,19 @@
 		<preference name="LoadingDialog" value="," />
 		<preference name="LoadUrlTimeoutValue" value="null" />
 		<platform name="android">
-		<icon src="\Icons\Icon36.png" qualifier="ldpi" />
-		<icon src="\Icons\Icon48.png" qualifier="mdpi" />
-		<icon src="\Icons\Icon72.png" qualifier="hdpi" />
-		<icon src="\Icons\Icon96.png" qualifier="xhdpi" />
-		<icon src="\Icons\Icon144.png" qualifier="xxhdpi" />
-		<icon src="\Icons\Icon192.png" qualifier="xxxhdpi" />
-		<splash src="\Icons\Splash240x320.png" qualifier="" />
-		<splash src="\Icons\Splash320x240.png" qualifier="" />
-		<splash src="\Icons\Splash320x480.png" qualifier="" />
-		<splash src="\Icons\Splash480x320.png" qualifier="" />
-		<splash src="\Icons\Splash480x800.png" qualifier="" />
-		<splash src="\Icons\Splash800x480.png" qualifier="" />
-		<splash src="\Icons\Splash720x1280.png" qualifier="" />
-		<splash src="\Icons\Splash1280x720.png" qualifier="" />
+		<icon src="Icons\Icon36.png" qualifier="ldpi" />
+		<icon src="Icons\Icon48.png" qualifier="mdpi" />
+		<icon src="Icons\Icon72.png" qualifier="hdpi" />
+		<icon src="Icons\Icon96.png" qualifier="xhdpi" />
+		<icon src="Icons\Icon144.png" qualifier="xxhdpi" />
+		<icon src="Icons\Icon192.png" qualifier="xxxhdpi" />
+		<splash src="Icons\Splash240x320.png" qualifier="" />
+		<splash src="Icons\Splash320x240.png" qualifier="" />
+		<splash src="Icons\Splash320x480.png" qualifier="" />
+		<splash src="Icons\Splash480x320.png" qualifier="" />
+		<splash src="Icons\Splash480x800.png" qualifier="" />
+		<splash src="Icons\Splash800x480.png" qualifier="" />
+		<splash src="Icons\Splash720x1280.png" qualifier="" />
+		<splash src="Icons\Splash1280x720.png" qualifier="" />
 		<access origin="http://pinoyhoroscopes.com" subdomains="true" />
 		</widget>
