@@ -71,16 +71,16 @@
 
     <!-- Define app icon for each platform. -->
     <icon src="Icon.png" />
-    <icon src="Icons/Icon36.png"   gap:platform="android"    gap:qualifier="ldpi" />
-    <icon src="Icons/Icon48.png"   gap:platform="android"    gap:qualifier="mdpi" />
-    <icon src="Icons/Icon72.png"   gap:platform="android"    gap:qualifier="hdpi" />
-    <icon src="Icons/Icon96.png"  gap:platform="android"    gap:qualifier="xhdpi" />
+    <icon src="Icons/Icon36.png"   platform="android"    qualifier="ldpi" />
+    <icon src="Icons/Icon48.png"   platform="android"    qualifier="mdpi" />
+    <icon src="Icons/Icon72.png"   platform="android"    qualifier="hdpi" />
+    <icon src="Icons/Icon96.png"   platform="android"    qualifier="xhdpi" />
 
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="Icons/Splash240x320.png"       gap:platform="android" gap:qualifier="port-ldpi" />
-    <gap:splash src="Icons/Splash320x480.png"       gap:platform="android" gap:qualifier="port-mdpi" />
-    <gap:splash src="Icons/Splash480x800.png"       gap:platform="android" gap:qualifier="port-hdpi" />
-    <gap:splash src="Icons/Splash720x1280.png"      gap:platform="android" gap:qualifier="port-xhdpi" />
+    <splash src="Icons/Splash240x320.png"       platform="android" qualifier="port-ldpi" />
+    <splash src="Icons/Splash320x480.png"       platform="android" qualifier="port-mdpi" />
+    <splash src="Icons/Splash480x800.png"       platform="android" qualifier="port-hdpi" />
+    <splash src="Icons/Splash720x1280.png"     platform="android" qualifier="port-xhdpi" />
 
     <!--
         Define access to external domains.
