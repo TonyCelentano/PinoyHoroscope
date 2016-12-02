@@ -1,0 +1,69 @@
+		<?xml version="1.0" encoding="UTF-8"?>
+	<widget xmlns = "http://www.w3.org/ns/widgets"
+		xmlns:gap = "http://phonegap.com/ns/1.0"
+		xmlns:android = "http://schemas.android.com/apk/res/android"
+		id        = "com.pinoyhoroscopes.app"
+		versionCode=""
+		version   = "1.0.0">
+		<name>Pinoy Horoscopes		</name>
+		<description>Horoscopes in native Filipino, araw-araw!		</description>
+		<author href="http://pinoyhoroscopes.com" email="tony.s.celentano@gmail.com">Tony C.		</author>
+		<feature name="http://api.phonegap.com/1.0/notification" />
+		<preference name="phonegap-version" value="cli-6.3.0" />
+		<preference name="android-build-tool" value="gradle" />
+		<preference name="orientation" value="default" />
+		<preference name="fullscreen" value="true" />
+		<preference name="target-device" value="universal" />
+		<preference name="webviewbounce" value="true" />
+		<preference name="prerendered-icon" value="false" />
+		<preference name="stay-in-webview" value="true" />
+		<preference name="ios-statusbarstyle" value="default" />
+		<preference name="detect-data-types" value="true" />
+		<preference name="exit-on-suspend" value="true" />
+		<preference name="show-splash-screen-spinner" value="true" />
+		<preference name="auto-hide-splash-screen" value="true" />
+		<preference name="FadeSplashScreen " value="true" />
+		<preference name="EnableViewportScale" value="false" />
+		<preference name="MediaPlaybackRequiresUserAction" value="false" />
+		<preference name="AllowInlineMediaPlayback" value="true" />
+		<preference name="BackupWebStorage" value="none" />
+		<preference name="TopActivityIndicator" value="white" />
+		<preference name="KeyboardDisplayRequiresUserAction" value="true" />
+		<preference name="KeyboardShrinksView " value="true" />
+		<preference name="HideKeyboardFormAccessoryBar" value="true" />
+		<preference name="SuppressesIncrementalRendering" value="false" />
+		<preference name="windows-identity-name" value="" />
+		<preference name="android-installLocation" value="auto" />
+		<preference name="SplashScreenDelay" value="2000" />
+		<preference name="ErrorUrl" value="null" />
+		<preference name="BackgroundColor" value="0x000000" />
+		<preference name="DisallowOverscroll" value="true" />
+		<preference name="LoadingDialog" value="," />
+		<preference name="LoadUrlTimeoutValue" value="null" />
+		<platform name="ios">
+		<icon src="C:\Users\Tony and Jane\Desktop\PinoyHoroscopes\config.xmlres/icons/ios/Icon.png" width="57" height="57" />
+		<icon src="C:\Users\Tony and Jane\Desktop\PinoyHoroscopes\config.xmlres/icons/ios/Icon-72@2x.png" width="144" height="144" />
+		<icon src="C:\Users\Tony and Jane\Desktop\PinoyHoroscopes\config.xmlres/icons/ios/Icon-72.png" width="72" height="72" />
+		<icon src="C:\Users\Tony and Jane\Desktop\PinoyHoroscopes\config.xmlres/icons/ios/Icon@2x.png" width="114" height="114" />
+		</platform>
+		<platform name="android">
+		<icon src="\Icons\Icon36.png" qualifier="ldpi" />
+		<icon src="\Icons\Icon48.png" qualifier="mdpi" />
+		<icon src="\Icons\Icon72.png" qualifier="hdpi" />
+		<icon src="\Icons\Icon96.png" qualifier="xhdpi" />
+		<icon src="\Icons\Icon144.png" qualifier="xxhdpi" />
+		<icon src="\Icons\Icon192.png" qualifier="xxxhdpi" />
+		<splash src="\Icons\Splash240x320.png" qualifier="" />
+		<splash src="\Icons\Splash320x240.png" qualifier="" />
+		<splash src="\Icons\Splash320x480.png" qualifier="" />
+		<splash src="\Icons\Splash480x320.png" qualifier="" />
+		<splash src="\Icons\Splash480x800.png" qualifier="" />
+		<splash src="\Icons\Splash800x480.png" qualifier="" />
+		<splash src="\Icons\Splash720x1280.png" qualifier="" />
+		<splash src="\Icons\Splash1280x720.png" qualifier="" />
+		</platform>
+		<platform name="winphone">
+		</platform>
+		 <icon src="icon.png" />
+		<access origin="http://pinoyhoroscopes.com" subdomains="true" />
+		</widget>
