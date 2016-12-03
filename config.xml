@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 	<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:android = "http://schemas.android.com/apk/res/android"
 	id = "com.pinoyhoroscopes.app"
 	version = "1.0.0">
 	<name>Pinoy Horoscopes</name>
 	<description>Horoscopes in native Filipino, araw-araw!</description>
 	<author href="http://pinoyhoroscopes.com" email="tony.s.celentano@gmail.com">Tony Celentano</author>
-	<content src="index.html" />
 	<preference name="phonegap-version"       value="cli-6.3.0" />
+	<preference name="permissions" value="none"/>
 	<preference name="android-build-tool" value="gradle"/>
     <preference name="orientation"                value="default" />
     <preference name="fullscreen"                 value="true" />
 	<preference name="android-installLocation"    value="auto" />
 	<preference name="DisallowOverscroll" value="true"/>
-	<plugin name="cordova-plugin-inappbrowser" spec="~1.5.0" />
-	<allow-intent href="http://*/*"/>
-	<allow-intent href="https://*/*"/>
+	<plugin name="cordova-plugin-inappbrowser" />
 	<plugin name="cordova-plugin-whitelist" />
-	<plugin name="cordova-plugin-splashscreen" spec="~4.0.0" />
+	<plugin name="cordova-plugin-splashscreen" />
+	<plugin name="cordova-plugin-device" />
 	<preference name="Splash.png"               value="splash" />
 	<preference name="AutoHideSplashScreen"       value="true" />
 	<preference name="SplashScreenDelay"          value="5000" />
@@ -39,4 +39,7 @@
     <splash src="Icons/Splash720x1280.png"     platform="android" qualifier="port-xhdpi" />
 	<splash src="Icons/Splash1280x720.png"     platform="android" qualifier="land-xhdpi" />
 	</platform>
+	
+	<allow-navigation href="http://pinoyhoroscopes.com/*" />
+	
 </widget>
