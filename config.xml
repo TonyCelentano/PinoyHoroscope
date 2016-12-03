@@ -43,7 +43,6 @@
         <preference name="SplashMaintainAspectRatio"  value="true" />
         <preference name="FadeSplashScreen"           value="true"/>
         <preference name="ShowSplashScreenSpinner"    value="false" />
-        </plugin>
 
     <!-- Define app icon for each platform. -->
     <icon src="Icon.png" />
