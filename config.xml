@@ -16,8 +16,6 @@
     <author href="http://pinoyhoroscopes.com" email="tony.s.celentano@gmail.com">
         Tony Celentano
     </author>
-    
-        <platform name="android" />
 
     <preference name="permissions"                value="none"/>
 
