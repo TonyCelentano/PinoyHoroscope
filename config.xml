@@ -15,6 +15,7 @@
     <author href="http://pinoyhoroscopes.com" email="tony.s.celentano@gmail.com">
         Tony Celentano
     </author>
+    <content src="index.html" />
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
