@@ -58,5 +58,5 @@
     <splash src="Icons/Splash480x800.png"       platform="android" qualifier="port-hdpi" />
     <splash src="Icons/Splash720x1280.png"     platform="android" qualifier="port-xhdpi" />
 
-    <access origin="http://pinoyhoroscopes.com" />
+    <access origin="http://pinoyhoroscopes.com" subdomains="true" />
 </widget>
